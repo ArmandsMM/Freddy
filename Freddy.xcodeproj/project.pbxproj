@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 46;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -505,7 +505,7 @@
 				};
 			};
 			buildConfigurationList = DB6ADF191C23610B00D77BF1 /* Build configuration list for PBXProject "Freddy" */;
-			compatibilityVersion = "Xcode 3.2";
+			compatibilityVersion = "Xcode 10.0";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -735,6 +735,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB6ADF801C23617500D77BF1 /* Debug.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Debug;
 		};
@@ -742,6 +743,7 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = DB6ADF821C23617500D77BF1 /* Release.xcconfig */;
 			buildSettings = {
+				SWIFT_VERSION = 5.0;
 			};
 			name = Release;
 		};
